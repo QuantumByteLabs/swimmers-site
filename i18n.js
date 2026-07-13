@@ -23,11 +23,14 @@ const I18N = {
     "footerSrc": "results sourced from",
     "lastUpdated": "Last updated",
     "spec.ahmed-dzemic": "Distance Freestyle",
-    "goal.ahmed-dzemic.0": "D2 college scholarship in the US",
-    "goal.ahmed-dzemic.1": "Qualify for the European Junior Championships",
-    "goal.ahmed-dzemic.2": "Represent Bosnia & Herzegovina at international championships",
-    "goal.ahmed-dzemic.3": "Break 16:00 in the 1500m Freestyle (SCM)",
-    "goal.ahmed-dzemic.4": "Break 1:55 in the 200m Freestyle (SCM)"
+    "goal.ahmed-dzemic.0": "D2 college scholarship in the US (D1 as stretch goal)",
+    "goal.ahmed-dzemic.1": "Complete NCAA eligibility, SAT & TOEFL by 2027",
+    "goal.ahmed-dzemic.2": "Senior national champion of BiH in the 400/800/1500 Freestyle",
+    "goal.ahmed-dzemic.3": "Medal at the Balkan Championships",
+    "goal.ahmed-dzemic.4": "Represent BiH at the European Junior Championships",
+    "goal.ahmed-dzemic.5": "Break 1:55 in the 200m Freestyle (SCM)",
+    "goal.ahmed-dzemic.6": "Break 4:05 in the 400m Freestyle (LCM)",
+    "goal.ahmed-dzemic.7": "National record of BiH in the 800m or 1500m Freestyle"
   },
   "de": {
     "home": "Start",
@@ -52,11 +55,14 @@ const I18N = {
     "footerSrc": "Ergebnisse von",
     "lastUpdated": "Zuletzt aktualisiert",
     "spec.ahmed-dzemic": "Langstrecken-Freistil",
-    "goal.ahmed-dzemic.0": "D2-College-Stipendium in den USA",
-    "goal.ahmed-dzemic.1": "Qualifikation für die Junioren-Europameisterschaft",
-    "goal.ahmed-dzemic.2": "Bosnien und Herzegowina bei internationalen Meisterschaften vertreten",
-    "goal.ahmed-dzemic.3": "Unter 16:00 über 1500m Freistil (Kurzbahn)",
-    "goal.ahmed-dzemic.4": "Unter 1:55 über 200m Freistil (Kurzbahn)"
+    "goal.ahmed-dzemic.0": "D2-College-Stipendium in den USA (D1 als ambitioniertes Ziel)",
+    "goal.ahmed-dzemic.1": "NCAA-Zulassung, SAT & TOEFL bis 2027 abschließen",
+    "goal.ahmed-dzemic.2": "Bosnischer Meister über 400/800/1500 Freistil (Senioren)",
+    "goal.ahmed-dzemic.3": "Medaille bei den Balkan-Meisterschaften",
+    "goal.ahmed-dzemic.4": "BiH bei der Junioren-Europameisterschaft vertreten",
+    "goal.ahmed-dzemic.5": "Unter 1:55 über 200m Freistil (Kurzbahn)",
+    "goal.ahmed-dzemic.6": "Unter 4:05 über 400m Freistil (Langbahn)",
+    "goal.ahmed-dzemic.7": "Landesrekord von BiH über 800m oder 1500m Freistil"
   },
   "bs": {
     "home": "Početna",
@@ -81,11 +87,14 @@ const I18N = {
     "footerSrc": "rezultati sa",
     "lastUpdated": "Posljednje ažurirano",
     "spec.ahmed-dzemic": "Slobodni stil — duge pruge",
-    "goal.ahmed-dzemic.0": "D2 univerzitetska stipendija u SAD-u",
-    "goal.ahmed-dzemic.1": "Kvalifikacija za Evropsko juniorsko prvenstvo",
-    "goal.ahmed-dzemic.2": "Nastupati za reprezentaciju BiH na međunarodnim prvenstvima",
-    "goal.ahmed-dzemic.3": "Isplivati ispod 16:00 na 1500m slobodno (SCM)",
-    "goal.ahmed-dzemic.4": "Isplivati ispod 1:55 na 200m slobodno (SCM)"
+    "goal.ahmed-dzemic.0": "D2 univerzitetska stipendija u SAD-u (D1 kao viši cilj)",
+    "goal.ahmed-dzemic.1": "Završiti NCAA registraciju, SAT i TOEFL do 2027.",
+    "goal.ahmed-dzemic.2": "Seniorski prvak BiH na 400/800/1500 slobodno",
+    "goal.ahmed-dzemic.3": "Medalja na Balkanskom prvenstvu",
+    "goal.ahmed-dzemic.4": "Predstavljati BiH na Evropskom juniorskom prvenstvu",
+    "goal.ahmed-dzemic.5": "Isplivati ispod 1:55 na 200m slobodno (SCM)",
+    "goal.ahmed-dzemic.6": "Isplivati ispod 4:05 na 400m slobodno (LCM)",
+    "goal.ahmed-dzemic.7": "Državni rekord BiH na 800m ili 1500m slobodno"
   }
 };
 
