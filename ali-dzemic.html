@@ -12,13 +12,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="i18n.js" defer></script>
 
 </head>
 <body>
 <nav class="topnav">
   <a class="brand" href="index.html"><span class="brand-mark">DŽ</span> Džemić Swimming</a>
   <div class="navlinks">
-    <a href="index.html">Home</a>
+    <a href="index.html" data-i18n="home">Home</a>
+    <div class="lang-switch" role="group" aria-label="Language"><button type="button" data-lang="en" class="active">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="bs">BS</button></div>
   </div>
 </nav>
 <header class="hero">
@@ -26,8 +28,8 @@
     <div class="avatar">AD</div>
     <p class="hero-flags">🇩🇪</p>
     <h1>Ali Džemić</h1>
-    <p class="tagline">Youth Squad · Sarajevo, BIH</p>
-    <div class="chips"><span class="chip">Age 15</span><span class="chip">SC Ingolstadt Delphin</span></div>
+    <p class="tagline"><span data-i18n="youthSquad">Youth Squad</span> · Sarajevo, BIH</p>
+    <div class="chips"><span class="chip"><span data-i18n="age">Age</span> 15</span><span class="chip">SC Ingolstadt Delphin</span></div>
     
     <div class="stat-grid"><div class="stat-card">
   <div class="stat-event">50 Free</div>
@@ -47,16 +49,17 @@
   <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,50 C240,90 480,10 720,40 C960,70 1200,20 1440,55 L1440,90 L0,90 Z" fill="rgba(34,211,238,0.06)"/><path d="M0,65 C260,25 520,85 780,55 C1040,25 1280,75 1440,45 L1440,90 L0,90 Z" fill="rgba(34,211,238,0.09)"/></svg></div>
 </header>
 <main class="container">
+  
   <section class="section">
-    <h2><span class="section-kicker">Personal</span> Best Times</h2>
+    <h2><span class="section-kicker" data-i18n="pbKicker">Personal</span><span data-i18n="pbTitle">Best Times</span></h2>
     <div class="pb-grid"><div class="pb-card">
-  <div class="pb-card-head"><h3>Long Course</h3><span class="course-tag">50m · LCM</span></div>
+  <div class="pb-card-head"><h3><span data-i18n="longCourse">Long Course</span></h3><span class="course-tag">50m · LCM</span></div>
   <table class="pb-table"><tbody><tr><td class="ev">50 Free</td><td class="time">34.29</td></tr><tr><td class="ev">100 Free</td><td class="time">1:16.81</td></tr><tr><td class="ev">200 Free</td><td class="time">2:42.52</td></tr><tr><td class="ev">50 Fly</td><td class="time">41.02</td></tr><tr><td class="ev">200 IM</td><td class="time">3:14.25</td></tr></tbody></table>
 </div></div>
   </section>
   
   <section class="section">
-    <h2><span class="section-kicker">1 meets</span> Competition Results</h2>
+    <h2><span class="section-kicker">1 <span data-i18n="meets">meets</span></span><span data-i18n="resultsTitle">Competition Results</span></h2>
     <div class="timeline"><div class="meet">
   <div class="meet-dot" aria-hidden="true"></div>
   <div class="meet-card">
@@ -85,8 +88,8 @@
   </section>
 </main>
 <footer class="footer">
-  <p>Džemić Swimming — results sourced from <a href="https://www.swimcloud.com" target="_blank" rel="noopener">SwimCloud</a>.</p>
-  <p class="muted">Last updated July 13, 2026</p>
+  <p>Džemić Swimming — <span data-i18n="footerSrc">results sourced from</span> <a href="https://www.swimcloud.com" target="_blank" rel="noopener">SwimCloud</a>.</p>
+  <p class="muted"><span data-i18n="lastUpdated">Last updated</span> July 13, 2026</p>
 </footer>
 
 </body>

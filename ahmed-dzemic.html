@@ -12,13 +12,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="i18n.js" defer></script>
 
 </head>
 <body>
 <nav class="topnav">
   <a class="brand" href="index.html"><span class="brand-mark">DŽ</span> Džemić Swimming</a>
   <div class="navlinks">
-    <a href="index.html">Home</a>
+    <a href="index.html" data-i18n="home">Home</a>
+    <div class="lang-switch" role="group" aria-label="Language"><button type="button" data-lang="en" class="active">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="bs">BS</button></div>
   </div>
 </nav>
 <header class="hero">
@@ -26,10 +28,10 @@
     <div class="avatar">AD</div>
     <p class="hero-flags">🇧🇦 🇩🇪</p>
     <h1>Ahmed Džemić</h1>
-    <p class="tagline">Distance Freestyle · Sarajevo, BIH</p>
-    <div class="chips"><span class="chip">Age 17</span><span class="chip">180 cm</span><span class="chip">72 kg</span><span class="chip">P.K. Sporttime Sarajevo</span><span class="chip">Schwimmclub Delphin Ingolstadt</span></div>
+    <p class="tagline"><span data-i18n="spec.ahmed-dzemic">Distance Freestyle</span> · Sarajevo, BIH</p>
+    <div class="chips"><span class="chip"><span data-i18n="age">Age</span> 17</span><span class="chip">180 cm</span><span class="chip">72 kg</span><span class="chip">P.K. Sporttime Sarajevo</span><span class="chip">Schwimmclub Delphin Ingolstadt</span></div>
     <div class="goal-banner">
-  <span class="goal-label">Goal</span> D1 college scholarship in the US · 2028
+  <span class="goal-label" data-i18n="goalLabel">Goal</span><span data-i18n="goal.ahmed-dzemic.0">D1 college scholarship in the US</span> · 2028
 </div>
     <div class="stat-grid"><div class="stat-card">
   <div class="stat-event">200 Free</div>
@@ -50,17 +52,36 @@
 </header>
 <main class="container">
   <section class="section">
-    <h2><span class="section-kicker">Personal</span> Best Times</h2>
+  <h2><span class="section-kicker" data-i18n="goalsKicker">Career</span><span data-i18n="goalsTitle">Goals</span></h2>
+  <ol class="goals-grid"><li class="goal-card">
+  <span class="goal-num">01</span>
+  <p><span data-i18n="goal.ahmed-dzemic.0">D1 college scholarship in the US</span></p>
+</li><li class="goal-card">
+  <span class="goal-num">02</span>
+  <p><span data-i18n="goal.ahmed-dzemic.1">Qualify for the European Junior Championships</span></p>
+</li><li class="goal-card">
+  <span class="goal-num">03</span>
+  <p><span data-i18n="goal.ahmed-dzemic.2">Represent Bosnia &amp; Herzegovina at international championships</span></p>
+</li><li class="goal-card">
+  <span class="goal-num">04</span>
+  <p><span data-i18n="goal.ahmed-dzemic.3">Break 16:00 in the 1500m Freestyle (SCM)</span></p>
+</li><li class="goal-card">
+  <span class="goal-num">05</span>
+  <p><span data-i18n="goal.ahmed-dzemic.4">Break 1:55 in the 200m Freestyle (SCM)</span></p>
+</li></ol>
+</section>
+  <section class="section">
+    <h2><span class="section-kicker" data-i18n="pbKicker">Personal</span><span data-i18n="pbTitle">Best Times</span></h2>
     <div class="pb-grid"><div class="pb-card">
-  <div class="pb-card-head"><h3>Short Course</h3><span class="course-tag">25m · SCM</span></div>
+  <div class="pb-card-head"><h3><span data-i18n="shortCourse">Short Course</span></h3><span class="course-tag">25m · SCM</span></div>
   <table class="pb-table"><tbody><tr><td class="ev">50 Free</td><td class="time">25.07</td></tr><tr><td class="ev">100 Free</td><td class="time">53.00</td></tr><tr><td class="ev">200 Free</td><td class="time">1:56.32</td></tr><tr><td class="ev">400 Free</td><td class="time">4:08.43</td></tr><tr><td class="ev">1500 Free</td><td class="time">16:44.12</td></tr><tr><td class="ev">50 Back</td><td class="time">30.19</td></tr><tr><td class="ev">50 Breast</td><td class="time">30.97</td></tr><tr><td class="ev">100 Breast</td><td class="time">1:08.77</td></tr><tr><td class="ev">50 Fly</td><td class="time">28.48</td></tr><tr><td class="ev">100 IM</td><td class="time">1:03.13</td></tr><tr><td class="ev">200 IM</td><td class="time">2:11.16</td></tr></tbody></table>
 </div><div class="pb-card">
-  <div class="pb-card-head"><h3>Long Course</h3><span class="course-tag">50m · LCM</span></div>
+  <div class="pb-card-head"><h3><span data-i18n="longCourse">Long Course</span></h3><span class="course-tag">50m · LCM</span></div>
   <table class="pb-table"><tbody><tr><td class="ev">50 Free</td><td class="time">25.09</td></tr><tr><td class="ev">100 Free</td><td class="time">53.56</td></tr><tr><td class="ev">200 Free</td><td class="time">1:57.06</td></tr><tr><td class="ev">400 Free</td><td class="time">4:13.25</td></tr><tr><td class="ev">800 Free</td><td class="time">8:46.64</td></tr><tr><td class="ev">1500 Free</td><td class="time">17:07.78</td></tr><tr><td class="ev">50 Back</td><td class="time">48.91</td></tr><tr><td class="ev">100 Back</td><td class="time">1:39.88</td></tr><tr><td class="ev">200 Back</td><td class="time">3:29.30</td></tr><tr><td class="ev">50 Breast</td><td class="time">33.09</td></tr><tr><td class="ev">100 Breast</td><td class="time">1:12.48</td></tr><tr><td class="ev">50 Fly</td><td class="time">27.40</td></tr><tr><td class="ev">200 IM</td><td class="time">2:17.78</td></tr></tbody></table>
 </div></div>
   </section>
   <section class="section">
-  <h2><span class="section-kicker">Season</span> Progression</h2>
+  <h2><span class="section-kicker" data-i18n="seasonKicker">Season</span><span data-i18n="progression">Progression</span></h2>
   <div class="chart-grid"><div class="chart-card">
   <h3>50 Free</h3>
   <div class="chart-wrap"><canvas id="chart-0"></canvas></div>
@@ -76,7 +97,7 @@
 </div></div>
 </section>
   <section class="section">
-    <h2><span class="section-kicker">9 meets</span> Competition Results</h2>
+    <h2><span class="section-kicker">9 <span data-i18n="meets">meets</span></span><span data-i18n="resultsTitle">Competition Results</span></h2>
     <div class="timeline"><div class="meet">
   <div class="meet-dot" aria-hidden="true"></div>
   <div class="meet-card">
@@ -297,8 +318,8 @@
   </section>
 </main>
 <footer class="footer">
-  <p>Džemić Swimming — results sourced from <a href="https://www.swimcloud.com" target="_blank" rel="noopener">SwimCloud</a>.</p>
-  <p class="muted">Last updated July 13, 2026</p>
+  <p>Džemić Swimming — <span data-i18n="footerSrc">results sourced from</span> <a href="https://www.swimcloud.com" target="_blank" rel="noopener">SwimCloud</a>.</p>
+  <p class="muted"><span data-i18n="lastUpdated">Last updated</span> July 13, 2026</p>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>

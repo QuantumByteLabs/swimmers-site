@@ -63,8 +63,34 @@ a { color: var(--accent); text-decoration: none; }
   color: #04121b;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
 }
-.navlinks a { color: var(--muted); font-weight: 500; margin-left: 20px; }
+.navlinks { display: flex; align-items: center; gap: 20px; }
+.navlinks a { color: var(--muted); font-weight: 500; }
 .navlinks a.active, .navlinks a:hover { color: var(--text); }
+
+.lang-switch {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+.lang-switch button {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font: 600 0.72rem "Inter", sans-serif;
+  letter-spacing: 0.06em;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+.lang-switch button:hover { color: var(--text); }
+.lang-switch button.active {
+  color: #04121b;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
 
 /* ---- Hero ---- */
 .hero {
@@ -188,6 +214,36 @@ a { color: var(--accent); text-decoration: none; }
   letter-spacing: 0.25em;
   color: var(--accent);
   margin-bottom: 4px;
+}
+
+/* ---- Goals ---- */
+.goals-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+.goal-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--card);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.goal-card:hover { border-color: rgba(34, 211, 238, 0.35); transform: translateY(-2px); }
+.goal-card p { font-weight: 500; font-size: 0.95rem; }
+.goal-num {
+  font-family: "Sora", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.4;
+  background: linear-gradient(135deg, var(--accent), var(--violet));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 /* ---- PB tables ---- */
@@ -363,4 +419,5 @@ td.time {
   .meet-head { flex-direction: column; }
   .timeline { padding-left: 22px; }
   .pb-table td, .meet-table td { padding: 10px 14px; }
+  .topnav { padding: 12px 16px; }
 }
