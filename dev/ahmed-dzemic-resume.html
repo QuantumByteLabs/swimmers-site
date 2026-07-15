@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Džemić — Athletic Resume</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Inter", sans-serif; color: #1a2433; background: #f4f6f9; line-height: 1.5; }
+.sheet { max-width: 800px; margin: 24px auto; background: #fff; padding: 44px 52px;
+  border-radius: 10px; box-shadow: 0 8px 30px rgba(20,40,70,0.1); }
+h1 { font-family: "Sora", sans-serif; font-size: 1.9rem; letter-spacing: -0.02em; }
+.sub { color: #5a6b82; font-weight: 500; margin-top: 2px; }
+.head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px;
+  border-bottom: 3px solid #0e7490; padding-bottom: 16px; }
+.head .contact { text-align: right; font-size: 0.85rem; color: #5a6b82; }
+.head .contact a { color: #0e7490; text-decoration: none; font-weight: 600; }
+h2 { font-family: "Sora", sans-serif; font-size: 0.82rem; text-transform: uppercase;
+  letter-spacing: 0.14em; color: #0e7490; margin: 26px 0 10px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
+.fact { display: flex; justify-content: space-between; gap: 12px; padding: 5px 0;
+  border-bottom: 1px solid #eef1f5; font-size: 0.88rem; }
+.fact span { color: #5a6b82; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th { text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: #5a6b82; padding: 6px 8px; border-bottom: 2px solid #dde3ea; }
+td { padding: 6px 8px; border-bottom: 1px solid #eef1f5; font-variant-numeric: tabular-nums; }
+td.note { color: #0e7490; font-weight: 600; font-size: 0.8rem; }
+ul { padding-left: 20px; font-size: 0.9rem; }
+li { margin: 3px 0; }
+.links { font-size: 0.85rem; }
+.links a { color: #0e7490; font-weight: 600; text-decoration: none; margin-right: 16px; }
+.foot { margin-top: 26px; padding-top: 12px; border-top: 1px solid #eef1f5;
+  font-size: 0.75rem; color: #8794a5; display: flex; justify-content: space-between; }
+.print-btn { position: fixed; top: 18px; right: 18px; background: #0e7490; color: #fff;
+  border: none; padding: 10px 20px; border-radius: 10px; font: 600 0.9rem "Inter", sans-serif;
+  cursor: pointer; box-shadow: 0 4px 14px rgba(14,116,144,0.35); }
+@media print {
+  body { background: #fff; }
+  .sheet { margin: 0; box-shadow: none; border-radius: 0; padding: 20px 10px; max-width: none; }
+  .print-btn { display: none; }
+}
+</style>
+</head>
+<body>
+<button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <div class="head">
+    <div>
+      <h1>Ahmed Džemić 🇩🇪 🇧🇦</h1>
+      <p class="sub">Distance Freestyle · Class of 2028</p>
+    </div>
+    <div class="contact">Athlete: <a href="mailto:your@email.com">your@email.com</a><br>Coach: <a href="mailto:coach@email.com">coach@email.com</a></div>
+  </div>
+
+  <h2>Profile</h2>
+  <div class="grid">
+    <div><div class="fact"><span>Date of birth</span><strong>2008-07-26</strong></div><div class="fact"><span>Height / Weight</span><strong>200 cm / 72 kg</strong></div><div class="fact"><span>Citizenship</span><strong>Germany / Bosnia &amp; Herzegovina (dual citizenship)</strong></div><div class="fact"><span>Location</span><strong>Sarajevo, BIH</strong></div><div class="fact"><span>Club · 2024 – present</span><strong>P.K. Sporttime Sarajevo</strong></div><div class="fact"><span>Club · 2021 – 2024</span><strong>MTV Pfaffenhofen</strong></div><div class="fact"><span>Club · until 2021</span><strong>Schwimmclub Delphin Ingolstadt</strong></div><div class="fact"><span>Head coach</span><strong>Evelin Avdić</strong></div><div class="fact"><span>Specialty</span><strong>Distance Freestyle</strong></div></div>
+    <div><div class="fact"><span>Education</span><strong>Completed Realschule — Mittlere Reife diploma (Bavaria, Germany)</strong></div><div class="fact"><span>Graduation year</span><strong>2028</strong></div><div class="fact"><span>Available from</span><strong>September 2028</strong></div></div>
+  </div>
+
+  <h2>Best Times — SCY converted (source: SwimCloud)</h2>
+  <table>
+    <thead><tr><th>Event</th><th>SCY (est.)</th><th>Official PB</th><th></th></tr></thead>
+    <tbody><tr><td>50 Free</td><td>22.14</td><td>25.09 (LCM)</td><td class='note'></td></tr><tr><td>100 Free</td><td>47.26</td><td>53.56 (LCM)</td><td class='note'></td></tr><tr><td>200 Free</td><td>1:43.29</td><td>1:57.06 (LCM)</td><td class='note'>D2 ready</td></tr><tr><td>500 Free</td><td>4:39.33</td><td>4:13.25 (LCM)</td><td class='note'>D2 ready</td></tr><tr><td>1000 Free</td><td>9:40.88</td><td>8:46.64 (LCM)</td><td class='note'>D2 ready</td></tr><tr><td>1650 Free</td><td>16:34.83</td><td>16:44.12 (SCM)</td><td class='note'></td></tr><tr><td>100 Back</td><td>1:28.13</td><td>1:39.88 (LCM)</td><td class='note'></td></tr><tr><td>200 Back</td><td>3:04.69</td><td>3:29.30 (LCM)</td><td class='note'></td></tr><tr><td>100 Breast</td><td>1:01.94</td><td>1:08.77 (SCM)</td><td class='note'></td></tr><tr><td>200 IM</td><td>1:58.13</td><td>2:11.16 (SCM)</td><td class='note'></td></tr></tbody>
+  </table>
+
+  <h2>Career Goals</h2>
+  <ul><li>D2 college scholarship in the US (D1 as stretch goal)</li><li>Complete NCAA eligibility, SAT &amp; TOEFL by 2027</li><li>Senior national champion of BiH in the 400/800/1500 Freestyle</li><li>Medal at the Balkan Championships</li></ul>
+
+  <h2>Profiles</h2>
+  <p class="links"><a href="https://www.swimcloud.com/swimmer/2980327/">SwimCloud</a><a href="https://www.swimrankings.net/index.php?page=athleteDetail&amp;athleteId=5297824">Swimrankings</a></p>
+
+  <div class="foot">
+    <span>SCY times are conversion estimates from official SCM/LCM results.</span>
+    <span>Updated July 15, 2026</span>
+  </div>
+</div>
+</body>
+</html>
