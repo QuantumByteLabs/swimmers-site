@@ -277,6 +277,7 @@ a { color: var(--accent); text-decoration: none; }
 .pb-table tr:first-child td { border-top: none; }
 .pb-table tr:hover td, .meet-table tr:hover td { background: rgba(34, 211, 238, 0.04); }
 td.ev { color: var(--muted); font-weight: 500; }
+.pb-meta { font-size: 0.72rem; color: rgba(226, 240, 255, 0.38); margin-top: 2px; line-height: 1.4; }
 td.time {
   text-align: right;
   font-family: "Sora", sans-serif;
