@@ -414,6 +414,52 @@ td.time {
   font-size: 0.88rem;
 }
 
+/* ---- Recruiting ---- */
+.rec-card {
+  border: 1px solid rgba(34, 211, 238, 0.25);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(34,211,238,0.05), rgba(167,139,250,0.05));
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.rec-intro {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.rec-intro p {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+.rec-avatar {
+  flex-shrink: 0;
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  font-family: "Sora", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #04121b;
+  background: linear-gradient(135deg, var(--accent), var(--violet));
+}
+.rec-rows { display: flex; flex-direction: column; gap: 0; }
+.rec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid rgba(148,197,255,0.08);
+}
+.rec-row:last-child { border-bottom: 1px solid rgba(148,197,255,0.08); }
+.rec-label { color: var(--muted); font-size: 0.88rem; font-weight: 500; }
+.rec-val { font-weight: 600; font-size: 0.95rem; }
+.rec-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+
 @media (max-width: 560px) {
   .hero { padding: 56px 18px 100px; }
   .meet-head { flex-direction: column; }
