@@ -43,6 +43,8 @@ const I18N = {
     "videosKicker": "Watch",
     "videosTitle": "Race Videos",
     "gradYear": "Graduation year",
+    "citizenship": "Citizenship",
+    "education": "Education",
     "resumeBtn": "Athletic Resume (PDF)",
     "spec.ahmed-dzemic": "Distance Freestyle",
     "goal.ahmed-dzemic.0": "D2 college scholarship in the US (D1 as stretch goal)",
@@ -52,7 +54,9 @@ const I18N = {
     "goal.ahmed-dzemic.4": "Represent BiH at the European Junior Championships",
     "goal.ahmed-dzemic.5": "Break 1:55 in the 200m Freestyle (SCM)",
     "goal.ahmed-dzemic.6": "Break 4:05 in the 400m Freestyle (LCM)",
-    "goal.ahmed-dzemic.7": "National record of BiH in the 800m or 1500m Freestyle"
+    "goal.ahmed-dzemic.7": "National record of BiH in the 800m or 1500m Freestyle",
+    "cit.ahmed-dzemic": "Bosnia & Herzegovina / Germany (dual citizenship)",
+    "edu.ahmed-dzemic": "Completed Realschule — Mittlere Reife diploma (Bavaria, Germany)"
   },
   "de": {
     "home": "Start",
@@ -97,6 +101,8 @@ const I18N = {
     "videosKicker": "Video",
     "videosTitle": "Rennvideos",
     "gradYear": "Abschlussjahr",
+    "citizenship": "Staatsbürgerschaft",
+    "education": "Schulbildung",
     "resumeBtn": "Sportlicher Lebenslauf (PDF)",
     "spec.ahmed-dzemic": "Langstrecken-Freistil",
     "goal.ahmed-dzemic.0": "D2-College-Stipendium in den USA (D1 als ambitioniertes Ziel)",
@@ -106,7 +112,9 @@ const I18N = {
     "goal.ahmed-dzemic.4": "BiH bei der Junioren-Europameisterschaft vertreten",
     "goal.ahmed-dzemic.5": "Unter 1:55 über 200m Freistil (Kurzbahn)",
     "goal.ahmed-dzemic.6": "Unter 4:05 über 400m Freistil (Langbahn)",
-    "goal.ahmed-dzemic.7": "Landesrekord von BiH über 800m oder 1500m Freistil"
+    "goal.ahmed-dzemic.7": "Landesrekord von BiH über 800m oder 1500m Freistil",
+    "cit.ahmed-dzemic": "Bosnien und Herzegowina / Deutschland (Doppelstaatsbürgerschaft)",
+    "edu.ahmed-dzemic": "Realschule abgeschlossen — Mittlere Reife (Bayern)"
   },
   "bs": {
     "home": "Početna",
@@ -151,6 +159,8 @@ const I18N = {
     "videosKicker": "Video",
     "videosTitle": "Snimci trka",
     "gradYear": "Godina mature",
+    "citizenship": "Državljanstvo",
+    "education": "Obrazovanje",
     "resumeBtn": "Sportska biografija (PDF)",
     "spec.ahmed-dzemic": "Slobodni stil — duge pruge",
     "goal.ahmed-dzemic.0": "D2 univerzitetska stipendija u SAD-u (D1 kao viši cilj)",
@@ -160,7 +170,9 @@ const I18N = {
     "goal.ahmed-dzemic.4": "Predstavljati BiH na Evropskom juniorskom prvenstvu",
     "goal.ahmed-dzemic.5": "Isplivati ispod 1:55 na 200m slobodno (SCM)",
     "goal.ahmed-dzemic.6": "Isplivati ispod 4:05 na 400m slobodno (LCM)",
-    "goal.ahmed-dzemic.7": "Državni rekord BiH na 800m ili 1500m slobodno"
+    "goal.ahmed-dzemic.7": "Državni rekord BiH na 800m ili 1500m slobodno",
+    "cit.ahmed-dzemic": "Bosna i Hercegovina / Njemačka (dvojno državljanstvo)",
+    "edu.ahmed-dzemic": "Završena Realschule — diploma Mittlere Reife (Bavarska, Njemačka)"
   }
 };
 
