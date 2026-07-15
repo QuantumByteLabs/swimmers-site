@@ -203,9 +203,42 @@ a { color: var(--accent); text-decoration: none; }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(34, 211, 238, 0.3); }
 .btn.ghost { background: var(--card); color: var(--text); border: 1px solid var(--border); }
 
+/* ---- Quick nav ---- */
+.quicknav {
+  position: sticky;
+  top: 60px;
+  z-index: 15;
+  background: rgba(6, 13, 24, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+.quicknav-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 24px;
+  scrollbar-width: none;
+}
+.quicknav-inner::-webkit-scrollbar { display: none; }
+.quicknav a {
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  white-space: nowrap;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.quicknav a:hover { color: var(--text); border-color: rgba(34, 211, 238, 0.4); }
+
 /* ---- Layout ---- */
 .container { max-width: 1000px; margin: 0 auto; padding: 20px 24px 60px; }
-.section { margin-top: 56px; }
+.section { margin-top: 56px; scroll-margin-top: 130px; }
 .section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 24px; letter-spacing: -0.01em; }
 .section-kicker {
   display: block;
