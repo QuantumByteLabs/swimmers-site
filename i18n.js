@@ -55,7 +55,7 @@ const I18N = {
     "goal.ahmed-dzemic.5": "Break 1:55 in the 200m Freestyle (SCM)",
     "goal.ahmed-dzemic.6": "Break 4:05 in the 400m Freestyle (LCM)",
     "goal.ahmed-dzemic.7": "National record of BiH in the 800m or 1500m Freestyle",
-    "cit.ahmed-dzemic": "Bosnia & Herzegovina / Germany (dual citizenship)",
+    "cit.ahmed-dzemic": "Germany / Bosnia & Herzegovina (dual citizenship)",
     "edu.ahmed-dzemic": "Completed Realschule — Mittlere Reife diploma (Bavaria, Germany)"
   },
   "de": {
@@ -113,7 +113,7 @@ const I18N = {
     "goal.ahmed-dzemic.5": "Unter 1:55 über 200m Freistil (Kurzbahn)",
     "goal.ahmed-dzemic.6": "Unter 4:05 über 400m Freistil (Langbahn)",
     "goal.ahmed-dzemic.7": "Landesrekord von BiH über 800m oder 1500m Freistil",
-    "cit.ahmed-dzemic": "Bosnien und Herzegowina / Deutschland (Doppelstaatsbürgerschaft)",
+    "cit.ahmed-dzemic": "Deutschland / Bosnien und Herzegowina (Doppelstaatsbürgerschaft)",
     "edu.ahmed-dzemic": "Realschule abgeschlossen — Mittlere Reife (Bayern)"
   },
   "bs": {
@@ -171,7 +171,7 @@ const I18N = {
     "goal.ahmed-dzemic.5": "Isplivati ispod 1:55 na 200m slobodno (SCM)",
     "goal.ahmed-dzemic.6": "Isplivati ispod 4:05 na 400m slobodno (LCM)",
     "goal.ahmed-dzemic.7": "Državni rekord BiH na 800m ili 1500m slobodno",
-    "cit.ahmed-dzemic": "Bosna i Hercegovina / Njemačka (dvojno državljanstvo)",
+    "cit.ahmed-dzemic": "Njemačka / Bosna i Hercegovina (dvojno državljanstvo)",
     "edu.ahmed-dzemic": "Završena Realschule — diploma Mittlere Reife (Bavarska, Njemačka)"
   }
 };
